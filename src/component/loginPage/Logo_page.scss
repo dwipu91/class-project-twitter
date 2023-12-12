@@ -1,0 +1,92 @@
+.login_ {
+  height: 80vh;
+  width: 100%;
+  padding: 60px 0;
+
+  .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.x_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  img {
+    height: 280px;
+    width: 300px;
+    object-fit: cover;
+  }
+}
+
+.login {
+  .b_heading {
+    font-size: 65px;
+    font-weight: 900;
+    padding-bottom: 20px;
+  }
+  .s_heading {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .all_btn {
+    button {
+      display: block;
+      margin: 20px 0;
+      border: 1px solid rgba(0, 0, 0, 0.202);
+      background: #fff;
+      padding: 8px 20px;
+      width: 320px;
+      border-radius: 20px;
+      transition: all ease 0.2s;
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+    .creat_btn {
+      border: transparent;
+      background: #0289ff;
+      a {
+        color: #fff;
+        font-weight: 600;
+      }
+      &:hover {
+        background: #0289ffe1;
+      }
+    }
+    .btn_sing_in {
+      border: 1px solid #0289ff7a;
+      color: #0289ff;
+      font-weight: 700;
+      &:hover {
+        background: #73baf816;
+        border: 1px solid #0289ff29;
+      }
+    }
+    .hover_apple {
+      &:hover {
+        background: #b0aeae1b;
+      }
+    }
+  }
+  .form_or {
+    width: 320px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .p {
+    width: 320px;
+    font-size: 12px;
+  }
+  .alert_accout {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 800;
+  }
+}
